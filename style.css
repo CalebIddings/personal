@@ -18,21 +18,7 @@ nav a {
 img {
   max-width: 200%;
 }
-CSS
-  in
-  External
-  File
-  <head
-  > <meta
-  charset="UTF-8"
-  > <meta
-  name="viewport"
-  content="width=device-width, initial-scale=1.0"
-  > <link
-  rel="stylesheet"
-  href="style.css"
-  > <style
-  > .container {
+.container {
   max-width: 960px;
   margin: 0 auto;
   padding: 40px;
@@ -52,4 +38,13 @@ footer {
   padding: 10px;
   background-color: #333;
   color: #fff;
+}
+footer a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
+footer a:hover {
+  color: #f39c12; /* Change color on hover */
 }
